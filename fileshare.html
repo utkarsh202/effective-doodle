@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width-device-width , initial-scale=1">
+    <title>Transfer Files</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <ul class="nav_links">
+        <li> <a href="#"> Home </a></li>
+          <li> <a href="C:\Users\sutka\fileshare\public\Aboutus1.html"> About Us </a></li>
+          <li> <a href="file:///D:/Project/Final%20Major%20Project%20%20Report.pdf"> About Project </a></li>
+         <li> <a href="C:\Users\sutka\fileshare\public\contactus.html"> Support </a></li>
+      </ul>
+    </nav>
+  <div class="intro">
+    <h1> Welcome</h1>
+  </div>
+  <div class="intro2">
+    <h2>Transfer and have your files travel for free</h2>
+    <h3> This Project is a simple and free way to safely share your data</h3>
+  </div>
+  <div class="main">
+    <input type="button" id="MYbutton" class="Button1" value="Send Files">
+    <script type="text/javascript">
+    document.getElementById("MYbutton").onclick = function () {
+        location.href = "http://localhost:5000/";
+    };
+   </script>
+  </div>
+
+  <div class="main2">
+    <input type="button" id="myButton2" class="button2" value="Recieve Files">
+    <script type="text/javascript">
+    document.getElementById("myButton2").onclick = function () {
+        location.href = "http://localhost:5000/receiver.html";
+    };
+   </script>
+  </div>
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+     <p>I hope that you will enjoy this software<br>
+     <br> 2022 UPY | All Rights Reserved</p>
+  </footer>
+
+
+  </body>
+</html>
